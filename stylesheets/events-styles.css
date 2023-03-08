@@ -1,0 +1,26 @@
+.event-grid {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.event-image {
+	width: 100%;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+.event-image-container {
+	width: 100%;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .event-grid {
+        grid-template-columns: 1fr;
+    }
+}

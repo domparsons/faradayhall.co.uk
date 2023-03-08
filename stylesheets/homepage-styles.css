@@ -1,0 +1,63 @@
+.landing-introduction {
+	display: flex; 
+	margin-bottom: 40px;
+	flex-direction: column-reverse;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.mar20 {
+	margin: 20px 0;
+}
+
+.header-image {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.introduction-image-container {
+	width: 100%;
+	margin-right: 40px;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.introduction-text {
+	display: flex;
+	align-items: center;
+}
+
+.homepage-gallery-container {
+	width: 100%;
+}
+
+.casino-images-container {
+	margin-top: 30px;
+}
+
+.casino-image {
+	margin: 10px 0;
+	width: 100%;
+}
+
+.secondary {
+	font-size: 1rem;
+	color: grey;
+	margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+	.landing-introduction {
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+	.introduction-image-container {
+		margin-right: 0;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}	
+
+}

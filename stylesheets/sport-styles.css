@@ -1,0 +1,37 @@
+.fox-image {
+    width: 100%;
+    max-width: 300px;
+}
+
+.fox-image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.sport-images-container {
+	width: 100%;
+	margin-right: 40px;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+
+}
+
+.sport-image-div {
+    width: 100%;
+}
+
+.sport-image {
+    width: 100%;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 800px) {
+    .extra-fox {
+        display: none;
+    }
+    .fox-image-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
