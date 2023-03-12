@@ -4,19 +4,19 @@
     grid-gap: 20px;
 }
 
+.event-image-container {
+	width: 100%;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+
 .event-image {
 	width: 100%;
 }
 
 h3 {
     margin-top: 50px;
-}
-
-.event-image-container {
-	width: 100%;
-	margin-bottom: 0;
-	display: flex;
-	justify-content: center;
 }
 
 @media screen and (max-width: 900px) {

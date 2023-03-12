@@ -30,24 +30,31 @@
 	align-items: center;
 }
 
-.homepage-gallery-container {
-	width: 100%;
-}
-
-.casino-images-container {
+.homepage-grid {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 	margin-top: 30px;
 }
 
-.casino-image {
-	margin: 10px 0;
+.homepage-photo-container {
+	width: 100%;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.homepage-image {
 	width: 100%;
 }
+
 
 .secondary {
 	font-size: 1rem;
 	color: grey;
 	margin: 0;
 }
+
 
 @media screen and (max-width: 900px) {
 	.landing-introduction {
