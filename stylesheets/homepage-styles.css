@@ -48,13 +48,11 @@
 	width: 100%;
 }
 
-
 .secondary {
 	font-size: 1rem;
 	color: grey;
 	margin: 0;
 }
-
 
 @media screen and (max-width: 900px) {
 	.landing-introduction {
@@ -66,5 +64,8 @@
 		margin-bottom: 20px;
 		margin-top: 20px;
 	}	
+	.homepage-grid {
+        grid-template-columns: 1fr;
+    }
 
 }
